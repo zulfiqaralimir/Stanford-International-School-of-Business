@@ -1,0 +1,111 @@
+//>>>>> Component Button Here <<<<<//
+.theme-btn {
+    position: relative;
+    z-index: 2;
+    vertical-align: middle;
+    display: inline-flex;
+    gap: 15px;
+    border: none;
+    text-align: center;
+    background-color: $theme-green;
+    color: $header-color;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1;
+    padding: 20px 30px;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 10px;
+
+    i {
+        margin-left: 5px;
+    }
+
+    &::after,&::before {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 50px;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        border-radius: 50%;
+        z-index: -1;
+        background-color: $header-color;
+        transition: 1s ease
+    }
+
+    &::before {
+        top: -2em;
+        left: -2em
+    }
+
+    &::after {
+        left: calc(100% + 2em);
+        top: calc(100% + 2em)
+    }
+
+    &:hover {
+        color: $white;
+        box-shadow: none;
+
+        &::after,&::before {
+            height: 410px;
+            width: 410px
+        }
+    }
+
+    &.hover-white {
+        &::after,&::before {
+            background-color: $white;
+        }
+
+        &:hover {
+            color: $header-color;
+        }
+    }
+
+    &.yellow-btn {
+        background-color: $theme-yellow;
+        color: $header-color;
+        
+        &::after,&::before {
+            background-color: $header-color;
+        }
+
+        &:hover {
+            color: $white;
+        }
+    }
+
+    &.red-btn {
+        background-color: $theme-red;
+        color: $white;
+        
+        &::after,&::before {
+            background-color: $header-color;
+        }
+
+        &:hover {
+            color: $white;
+        }
+    }
+
+    &.pink-btn {
+        background-color: $theme-pink;
+        color: $white;
+    }
+
+    &.theme-blue-2 {
+        background-color: $theme-blue-2;
+        color: $white;
+    }
+
+    @include breakpoint (max-sm){
+        padding: 18px 30px;
+        font-size: 14px;
+    }
+}
+
+
+//>>>>> Component Button End <<<<<//

@@ -1,0 +1,65 @@
+
+:root {
+    --body: #fff;
+    --black: #000;
+    --white: #fff;
+    --theme-blue:#005BFF;
+    --theme-blue-2:#553CDF;
+    --theme-green:#00E2C5;
+    --theme-green-2:#C3F499;
+    --theme-green-3:#102F25;
+    --theme-yellow:#FFD25D;
+    --theme-yellow-2:#F69B17;
+    --theme-yellow-3:#FDC500;
+    --theme-yellow-4:#FFD335;
+    --theme-purple:#8F66FF;
+    --theme-red:#AD0119;
+    --theme-pink:#EE4A62;
+    --theme-orange:#F47900;
+    --header:#031F42;
+    --base:#5C30FD;
+    --text:#5B6D84;
+    --border:#E6EFFF;
+    --border2:#373737;
+    --ratting:#F8BC26;
+    --bg:#F4F9FF;
+    --bg2:#E6EFFF;
+    --bg3:#F4F0FF;
+    --bg4:#2F584E;
+    --bg5:#09224B;
+    --bg6:#EDF3F5;
+    --bg7:#F8F2EC;
+    --bg8:#F3F1FD;
+    ---box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.06);
+
+}
+
+// Theme Color - Defualt Colors
+$black: var(--black);
+$white: var(--white);
+$theme-blue: var(--theme-blue);
+$theme-blue-2: var(--theme-blue-2);
+$theme-green: var(--theme-green);
+$theme-green-2: var(--theme-green-2);
+$theme-green-3: var(--theme-green-3);
+$theme-yellow: var(--theme-yellow);
+$theme-yellow-2: var(--theme-yellow-2);
+$theme-yellow-3: var(--theme-yellow-3);
+$theme-yellow-4: var(--theme-yellow-4);
+$theme-purple: var(--theme-purple);
+$theme-red: var(--theme-red);
+$theme-pink: var(--theme-pink);
+$theme-orange: var(--theme-orange);
+$text-color: var(--text);
+$header-color: var(--header);
+$border-color: var(--border);
+$ratting-color: var(--ratting);
+$bg-color: var(--bg);
+$bg-color-2: var(--bg2);
+$bg-color-3: var(--bg3);
+$bg-color-4: var(--bg4);
+$bg-color-5: var(--bg5);
+$bg-color-6: var(--bg6);
+$bg-color-7: var(--bg7);
+$bg-color-8: var(--bg8);
+$shadow: var(---box-shadow);

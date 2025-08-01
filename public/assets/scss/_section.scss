@@ -1,0 +1,309 @@
+
+//>>>>> Section Title Start <<<<<//
+
+.section-title {
+	position: relative;
+	z-index: 99;
+	margin-bottom: 30px;
+	margin-top: -5px;
+
+	@include breakpoint (max-md) {
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	h6 {
+		line-height: 1;
+		font-size: 18px;
+		font-weight: 600;
+		margin-bottom: 20px;
+		padding-bottom: 10px;
+		color: $theme-blue;
+		position: relative;
+		display: inline-block;
+
+		@include breakpoint (max-sm) {
+			margin-bottom: 10px;
+		}
+
+		&::before {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			content: "";
+			width: 100%;
+			height: 6px;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-image: url(../../assets/img/bar/top-bar.png);
+			animation: width 1.5s linear 2 !important;
+			animation-fill-mode: both;
+			background-position: center;
+		}
+
+		&.yellow-text {
+			color: $theme-yellow;
+
+			&::before {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				content: "";
+				width: 100%;
+				height: 6px;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-image: url(../../assets/img/bar/yellow-bar-2.png);
+				animation: width 1.5s linear infinite !important;
+				animation-fill-mode: both;
+				background-position: center;
+			}
+		}
+
+		&.text-white {
+
+			&::before {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				content: "";
+				width: 100%;
+				height: 6px;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-image: url(../../assets/img/bar/white-bar.png);
+				animation: width 1.5s linear !important;
+				animation-fill-mode: both;
+				background-position: center;
+			}
+		}
+	}
+
+	&.color-red {
+		h6 {
+			color: $theme-red;
+			position: relative;
+
+			&::before {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				content: "";
+				width: 100%;
+				height: 6px;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-image: url(../../assets/img/Tag.png);
+				animation: width 1.5s linear !important;
+				animation-fill-mode: both;
+				background-position: center;
+			}
+
+			span {
+				position: absolute;
+				bottom: -5px;
+				left: 0;
+				right: 0;
+				
+				img {
+					animation: width 8s linear infinite !important;
+				}
+			}
+		}
+	}
+
+	&.color-black {
+		h6 {
+			position: relative;
+			color: $header-color;
+
+			&::before {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				content: "";
+				width: 100%;
+				height: 6px;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-image: url(../../assets/img/bar/black-bar.png);
+				animation: width 1.5s linear !important;
+				animation-fill-mode: both;
+				background-position: center;
+			}
+		}
+	}
+
+	&.color-pink {
+		h6 {
+			position: relative;
+			color: $theme-pink;
+
+			&::before {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				content: "";
+				width: 100%;
+				height: 6px;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-image: url(../../assets/img/bar/pink-bar.png);
+				animation: width 1.5s linear !important;
+				animation-fill-mode: both;
+				background-position: center;
+			}
+		}
+	}
+
+	&.color-yellow {
+		h6 {
+			color: $theme-yellow-3;
+			position: relative;
+
+			&::before {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				content: "";
+				width: 100%;
+				height: 6px;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-image: url(../../assets/img/bar/yellow-bar-2.png);
+				animation: width 1.5s linear !important;
+				animation-fill-mode: both;
+				background-position: center;
+			}
+		}
+	}
+
+	&.color-blue {
+		h6 {
+			color: $theme-blue-2;
+			position: relative;
+
+			&::before {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				content: "";
+				width: 100%;
+				height: 6px;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-image: url(../../assets/img/bar/blue-bar.png);
+				animation: width 1.5s linear !important;
+				animation-fill-mode: both;
+				background-position: center;
+			}
+		}
+	}
+}
+
+.section-title-area	{
+	@include flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+
+	@include breakpoint (max-md) {
+		flex-wrap: wrap;
+		gap: 30px;
+		margin-bottom: 0;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.section-title {
+		margin-bottom: 0;
+	}
+
+	.nav {
+		@include flex;
+		justify-content: space-between;
+
+		.nav-item {
+			.nav-link {
+				font-size: 16px;
+				font-weight: 500;
+				color: $text-color;
+				
+
+				&.active {
+					color: $header-color;
+					position: relative;
+					display: inline-block;
+
+					&::before {
+						position: absolute;
+						bottom: 5px;
+						left: 50%;
+						right: 0;
+						content: "";
+						width: 100%;
+						height: 5px;
+						background-size: cover;
+						background-repeat: no-repeat;
+						background-image: url(../../assets/img/bar/tab-bar.png);
+						animation: width 1.5s linear !important;
+						animation-fill-mode: both;
+						background-position: center;
+						max-width: 70px;
+						transform: translateX(-50%);
+					}
+				}
+			}
+		}
+	}
+}
+//>>>>> Section Title End <<<<<//
+
+//>>>>> Basic Css Start <<<<<//
+
+.center {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.section-bg {
+	background-color: $bg-color !important;
+}
+
+.section-bg-2 {
+	background-color: #F3F1FD !important;
+}
+
+
+.footer-bg {
+	background-color: $header-color;
+}
+
+.theme-blue-bg {
+	background-color: $theme-blue;
+}
+
+.theme-green-bg {
+	background-color: $theme-green;
+}
+
+.theme-red-bg {
+	background-color: $theme-red;
+}
+.section-padding{
+	padding: 100px 0;
+
+	
+	@include breakpoint(max-lg){
+		padding: 80px 0;
+	}
+}
+//>>>>> Basic Css End <<<<<//
+

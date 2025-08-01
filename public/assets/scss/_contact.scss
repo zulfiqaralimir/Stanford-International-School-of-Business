@@ -1,0 +1,263 @@
+.contact-box-items {
+    margin-top: 30px;
+    padding: 50px;
+    border: 1px solid $bg-color-2;
+    background-color: $white;
+    filter: drop-shadow(10px 4px 60px rgba(204, 204, 204, 0.25));
+    height: 363px;
+
+    .icon {
+        font-size: 45px;
+        color: $theme-blue;
+        margin-bottom: 40px;
+    }
+
+    h5 {
+        color: $text-color;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .image {
+        margin-bottom: 25px;
+    }
+
+    h4 {
+        line-height: 150%;
+    }
+    
+}
+
+.map-area {
+    iframe {
+        height: 715px;
+        width: 100%;
+
+        @include breakpoint (max-lg){
+            height: 650px;
+        }
+
+        @include breakpoint (max-md){
+            height: 530px;
+        }
+
+        @include breakpoint (max-sm){
+            height: 430px;
+        }
+    }
+}
+
+.map-area-section {
+
+    .container-fluid {
+        padding: 0px 115px;
+
+        @include breakpoint (max-xxxl){
+            padding: 0 50px;
+        }
+
+        @include breakpoint (max-xxl){
+            padding: 0 40px;
+        }
+
+        @include breakpoint (max-xl){
+            padding: 0 30px;
+        }
+    }
+}
+
+.contact-form-items {
+    background-color: $bg-color;
+    border: 1px solid $theme-blue;
+    border-radius: 10px;
+    padding: 60px 110px;
+    margin-top: -320px;
+    position: relative;
+    z-index: 9;
+
+    @include breakpoint (max-xl){
+     margin-top: 0;
+    }
+
+    @include breakpoint (max-lg){
+        padding: 60px 50px;
+    }
+
+    @include breakpoint (max-md){
+        padding: 50px 40px;
+    }
+
+    @include breakpoint (max-sm){
+        padding: 40px 30px;
+    }
+
+    // @include breakpoint (max-xl){
+    //     padding: 100px 40px;
+    // }
+
+    // @include breakpoint (max-lg){
+    //     padding: 80px 30px;
+    // }
+
+    .title {
+        margin-bottom: 30px;
+
+        h2 {
+            font-size: 40px;
+        }
+    }
+
+    .form-clt {
+        position: relative;
+
+        input,textarea {
+            padding: 16px 30px;
+            border: none;
+            outline: none;
+            background-color: $white;
+            width: 100%;
+            font-size: 16px;
+            font-weight: 500;
+            text-transform: capitalize;
+            color: $text-color;
+
+            @include breakpoint (max-sm){
+               padding: 12px 20px;
+            }
+        }
+
+        textarea {
+            padding: 18px 30px 110px;
+
+            @include breakpoint (max-sm){
+                padding: 12px 20px 90px;
+            }
+        }
+
+        &::placeholder {
+            color: $text-color;
+        }
+
+        .icon {
+            position: absolute;
+            right: 30px;
+            top: 16px;
+            color: $text-color;
+        }
+    }
+
+    .theme-btn {
+        background-color: $theme-blue;
+        color: $white;
+    }
+}
+
+
+.sign-in-items {
+    background-color: $bg-color;
+    border: 1px solid $theme-blue;
+    border-radius: 10px;
+    padding: 60px 110px;
+    position: relative;
+    z-index: 9;
+
+    @include breakpoint (max-lg){
+        padding: 60px 50px;
+    }
+
+    @include breakpoint (max-md){
+        padding: 50px 40px;
+    }
+
+    @include breakpoint (max-sm){
+        padding: 40px 30px;
+    }
+
+    .title {
+        margin-bottom: 30px;
+
+        h2 {
+            font-size: 30px;
+        }
+    }
+
+    .form-clt {
+        position: relative;
+
+        span {
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 5px;
+            color: #031F42;
+        }
+
+        input,textarea {
+            padding: 16px 30px;
+            border: none;
+            outline: none;
+            background-color: $white;
+            width: 100%;
+            font-size: 16px;
+            font-weight: 400;
+            border-radius: 7px;
+            color: $text-color;
+            border: 1px solid rgba(0, 91, 255, 0.20);
+
+            @include breakpoint (max-sm){
+               padding: 12px 20px;
+            }
+        }
+
+        &.style-2 {
+            input,textarea {
+                border: 1px solid $theme-blue;
+            }
+        }
+
+        textarea {
+            padding: 18px 30px 110px;
+
+            @include breakpoint (max-sm){
+                padding: 12px 20px 90px;
+            }
+        }
+
+        &::placeholder {
+            color: $text-color;
+        }
+
+        .icon {
+            position: absolute;
+            right: 30px;
+            top: 55px;
+            color: #031F42;
+        }
+    }
+
+    .from-cheak-items {
+        @include flex;
+        justify-content: space-between;
+
+        .from-customradio {
+
+            .form-check-label {
+                text-transform: capitalize;
+                color: $text-color;
+            }
+        }
+
+        span {
+            color: $theme-blue;
+            font-weight: 500;
+        }
+
+        &.style-2 {
+            justify-content: right;
+        }
+    }
+    .theme-btn {
+        background-color: $theme-blue;
+        color: $white;
+        width: 100%;
+        justify-content: center;
+    }
+}

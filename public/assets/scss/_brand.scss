@@ -1,0 +1,90 @@
+.brand-wrapper {
+    padding: 80px 100px;
+    background-color: $bg-color;
+    border: 1px solid $border-color;
+    border-radius: 7px;
+
+    @include breakpoint (max-lg){
+        padding: 50px;
+    }
+
+    @include breakpoint (max-md){
+        padding: 40px;
+    }
+
+    @include breakpoint (max-sm){
+        padding: 30px;
+    }
+
+    .brand-img {
+        margin-top: 20px;
+    }
+}
+
+.global-partner-wrapper {
+    background-color: #FFF1E0;
+    border: 1px solid rgba(9, 34, 75, 0.10);
+    padding: 70px;
+    border-radius: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+
+    @include breakpoint (max-lg){
+        padding: 0;
+    }
+
+    &.style-2 {
+        background-color: #F3F1FD;
+    }
+
+    .section-title {
+        @include breakpoint (max-lg){
+           padding-top: 30px;
+          // padding-left: 30px;
+        }
+        
+        p {
+            color: $header-color;
+            max-width: 370px;
+
+            @include breakpoint (max-md){
+               margin: 0 auto;
+            }
+        }
+    }
+
+    .global-partner-items {
+        border-left: 1px solid rgba(9, 34, 75, 0.07);
+
+        .global-logo {
+            padding: 65px 30px;
+            text-align: center;
+            border-bottom: 1px solid rgba(9, 34, 75, 0.07);
+            border-right: 1px solid rgba(9, 34, 75, 0.07);
+            @include transition;
+
+            @include breakpoint (max-lg){
+                background-color: $white;
+                border: none;
+                padding: 30px;
+            }
+
+            @include breakpoint (max-sm){
+                padding: 20px;
+            }
+
+            &.border-right-none {
+                border-right: none !important;
+            }
+    
+            &.border-bottom-none {
+                border-bottom: none !important;
+            }
+
+            &:hover,&.active {
+                background-color: $white;
+            }
+        }
+    }
+}
