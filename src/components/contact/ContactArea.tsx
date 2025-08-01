@@ -25,9 +25,9 @@ const ContactArea = () => {
                                 <img src="assets/img/small-line.png" alt="img" />
                             </div>
                             <h4>
-                                70 Washington Square <br />
-                                South New York, NY 10012, <br />
-                                 United States
+                                B-463, New Lala Rukh<br />
+                                Wah Cantt, 44000, <br />
+                                 Pakistan
                             </h4>
                         </div>
                     </div>
@@ -43,8 +43,8 @@ const ContactArea = () => {
                                 <img src="assets/img/small-line.png" alt="img" />
                             </div>
                             <h4>
-                                <a href="mailto:supportedus@gmail.com">supportedus@gmail.com</a> <br />
-                                <a href="mailto:www.eduspace.com">www.eduspace.com</a>
+                                <a href="mailto:supportedus@gmail.com">mir.global.academy@gmail.com</a> <br />
+                                <a href="mailto:www.eduspace.com">www.mathematics-teacher.com</a>
                             </h4>
                         </div>
                     </div>
@@ -60,8 +60,8 @@ const ContactArea = () => {
                                 <img src="assets/img/small-line.png" alt="img" />
                             </div>
                             <h4>
-                                <a href="tel:++00012345688">+000 123 456 88</a> <br />
-                                <a href="tel:+4325688899">+432 568 88 99</a>
+                                <a href="tel:++0012345688">+92 322 5150501</a> <br />
+                                <a href="tel:+425688899">+92 3225150501</a>
                             </h4>
                         </div>
                     </div>

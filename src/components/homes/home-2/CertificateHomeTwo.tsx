@@ -6,7 +6,7 @@ const CertificateHomeTwo = () => {
   return (
     <>
       <div className="certificate-text wow fadeInUp" data-wow-delay=".3s">
-            <h3>Get Your Quality Skills Certificate Through Eduspace</h3>
+            <h3>Get Your Quality Skills Certificate Through Stanford International School of Business</h3>
             <Link href="/register" className="theme-btn">Get Started Now</Link>
         </div>
     </>

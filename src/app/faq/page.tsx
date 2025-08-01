@@ -6,7 +6,7 @@ import Wrapper from '@/layouts/Wrapper';
 
 import { Metadata } from 'next';
 export const metadata: Metadata = {
-	title: "Faq - Eduspace - Online Course, Education & University Next JS Template",
+	title: "Faq - Mir Global Academy - Online Course, Education & University Next JS Template",
 	description: "Full Stack Developer",
 	keywords: "Full Stack Developer, at rk-theme",
 };

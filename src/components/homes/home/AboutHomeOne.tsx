@@ -16,7 +16,7 @@ const AboutHomeOne = () => {
                     <div className="col-xl-5 col-lg-6 col-md-6">
                         <div className="about-content">
                             <div className="section-title">
-                                <h6 className="wow fadeInUp">About Eduspace</h6>
+                                <h6 className="wow fadeInUp">About Stanford International School of Business</h6>
                                 <h2 className="wow fadeInUp" data-wow-delay=".3s">
                                     Empowering Learner <br />
                                     for a Brighter Future

@@ -8,7 +8,7 @@ import Gallery from '@/components/gallery';
 
 import { Metadata } from 'next';
 export const metadata: Metadata = {
-	title: "Gallery - Eduspace - Online Course, Education & University Next JS Template",
+	title: "Gallery - Mir Global Academy - Online Course, Education & University Next JS Template",
 	description: "Full Stack Developer",
 	keywords: "Full Stack Developer, at rk-theme",
 };

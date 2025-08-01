@@ -6,7 +6,7 @@ import React from 'react';
 
 import { Metadata } from 'next';
 export const metadata: Metadata = {
-	title: "Courses List - Eduspace - Online Course, Education & University Next JS Template",
+	title: "Courses List - Mir Global Academy - Online Course, Education & University Next JS Template",
 	description: "Full Stack Developer",
 	keywords: "Full Stack Developer, at rk-theme",
 };

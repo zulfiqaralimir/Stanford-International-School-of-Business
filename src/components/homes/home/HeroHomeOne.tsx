@@ -23,7 +23,7 @@ const HeroHomeOne = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="hero-content">
-                            <span className="wow fadeInUp">Welcome to Eduspace</span>
+                            <span className="wow fadeInUp">Welcome to Stanford International School of Business</span>
                             <h1 className="wow fadeInUp" data-wow-delay=".3s">
                                 Interactive Learning
                                 Engaging Students in
